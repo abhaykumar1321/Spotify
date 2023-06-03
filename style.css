@@ -23,11 +23,12 @@ nav ul {
 }
 
 nav ul li {
-  padding: 8px;
+  padding: 12px;
 }
 
 .brand img {
   width: 70px;
+  padding: 0px 8px;
 }
 
 .brand {
@@ -36,4 +37,24 @@ nav ul li {
   font-weight: bolder;
   font-size: 1.2rem;
   padding: 0px 10px;
+}
+
+.container {
+    min-height: 75vh;
+}
+
+.bottom {
+    position: absolute;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+#progressBar {
+  width: 100vw;
+  text-align: center;
 }
